@@ -1,9 +1,14 @@
 Package.describe({
   name: "kostanos:collection-helpers",
   summary: "Transform your collections with helpers that you define",
+<<<<<<< HEAD
   version: "1.1.0",
-  documentation: "README.md",
   git: "https://github.com/Kostanos/meteor-collection-helpers.git"
+=======
+  version: "1.0.4",
+  documentation: "README.md",
+  git: "https://github.com/dburles/meteor-collection-helpers.git",
+>>>>>>> 79f5594f833ff88a4d84efce8169c17391cceb86
 });
 
 Package.onUse(function(api) {
@@ -20,6 +25,6 @@ Package.onTest(function(api) {
     'tinytest',
     'underscore',
     'mongo',
-    'kostanos:collection-helpers']);
+    'dburles:collection-helpers']);
   api.addFiles('collection-helpers_tests.js');
 });
