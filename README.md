@@ -1,3 +1,7 @@
+## This is fork from original dburles:collection-helpers package
+It adds support for multiple _transforms in Collection
+So this package could be used with others Collections transformers like tap-i18n for example.
+
 # Meteor Collection Helpers
 
 Collection helpers automatically sets up a transformation on your collections using Meteor's Mongo.Collection `transform` option, allowing for simple models with an interface that's similar to template helpers.
@@ -5,7 +9,7 @@ Collection helpers automatically sets up a transformation on your collections us
 ## Installation
 
 ```sh
-$ meteor add dburles:collection-helpers
+$ meteor add kostanos:collection-helpers
 ```
 
 ## Usage
