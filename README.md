@@ -1,6 +1,7 @@
-## This is fork from original dburles:collection-helpers package
+### This is fork from original dburles:collection-helpers package
 It adds support for multiple _transforms in Collection
 So this package could be used with others Collections transformers like tap-i18n for example.
+Pull request for reference: #46 #47
 
 # Meteor Collection Helpers
 
